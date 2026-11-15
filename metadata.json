@@ -1,0 +1,6 @@
+{
+  "name": "Terrabio Sustainable Packaging",
+  "description": "High-performance certified compostable carry bags and circular packaging solutions for conscious retail, food service, and e-commerce.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
