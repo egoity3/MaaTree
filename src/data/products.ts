@@ -10,7 +10,7 @@ export const BAG_SIZES: BagSizeOption[] = [
     thickness: '20 Microns (Biopolymer Film)',
     capacity: '250 gms',
     idealFor: 'Spices, confectionery, pharmacy sachets, jewelry & small takeaways',
-    moq: '500 units'
+    moq: '10 kg'
   },
   {
     id: 'size-500g',
@@ -20,7 +20,7 @@ export const BAG_SIZES: BagSizeOption[] = [
     thickness: '22 Microns (Biopolymer Film)',
     capacity: '500 gms',
     idealFor: 'Small dry groceries, bakery pastries, loose herbs & snack packs',
-    moq: '500 units'
+    moq: '10 kg'
   },
   {
     id: 'size-1kg',
@@ -30,7 +30,7 @@ export const BAG_SIZES: BagSizeOption[] = [
     thickness: '25 Microns (Biopolymer Film)',
     capacity: '1 kg',
     idealFor: 'Daily produce, dairy packs, sweet boxes, cosmetics & light retail',
-    moq: '500 units'
+    moq: '10 kg'
   },
   {
     id: 'size-2kg',
@@ -40,7 +40,7 @@ export const BAG_SIZES: BagSizeOption[] = [
     thickness: '28 Microns (Biopolymer Film)',
     capacity: '2 kg',
     idealFor: 'Convenience stores, fruit vendors, takeaway meal boxes & cafés',
-    moq: '500 units'
+    moq: '10 kg'
   },
   {
     id: 'size-5kg',
@@ -50,7 +50,7 @@ export const BAG_SIZES: BagSizeOption[] = [
     thickness: '32 Microns (Biopolymer Film)',
     capacity: '5 kg',
     idealFor: 'General grocery shopping, apparel boutiques, pharmacies & bakeries',
-    moq: '500 units'
+    moq: '10 kg'
   },
   {
     id: 'size-9kg',
@@ -60,7 +60,7 @@ export const BAG_SIZES: BagSizeOption[] = [
     thickness: '38 Microns (Biopolymer Film)',
     capacity: '9 kg',
     idealFor: 'Multi-item grocery hauls, bookshops, folded garments & heavy takeout',
-    moq: '1,000 units'
+    moq: '10 kg'
   },
   {
     id: 'size-14kg',
@@ -70,7 +70,7 @@ export const BAG_SIZES: BagSizeOption[] = [
     thickness: '45 Microns (Biopolymer Film)',
     capacity: '14 kg',
     idealFor: 'Supermarket checkouts, farm markets, zero-waste stores & heavy retail',
-    moq: '1,000 units'
+    moq: '10 kg'
   },
   {
     id: 'size-18kg',
@@ -80,7 +80,7 @@ export const BAG_SIZES: BagSizeOption[] = [
     thickness: '55 Microns (Biopolymer Film)',
     capacity: '18 kg',
     idealFor: 'Bulk grocery loads, department stores & wholesale food packaging',
-    moq: '2,500 units'
+    moq: '10 kg'
   }
 ];
 
@@ -97,7 +97,7 @@ export const PRODUCTS: Product[] = [
     materials: ['Corn Starch', 'Cassava Starch', 'Certified Biodegradable PBAT'],
     compostTime: '90–180 Days in Home Compost',
     certification: 'CIPET Certified · IS/ISO 17088:2021 · CPCB Compliant',
-    moq: '500 units (Custom printing from 2,000 units)',
+    moq: '10 kg',
     description: 'Our first available product category: Standard Carry Bags engineered to replicate the exact look, smooth touch, flexible stretch, and load capacity of conventional plastic shopping bags across 8 sizes (250 gms, 500 gms, 1 kg, 2 kg, 5 kg, 9 kg, 14 kg, and 18 kg). 100% microplastic-free and food-contact safe.',
     specs: [
       { label: 'Available Sizes', value: '250 gms, 500 gms, 1 kg, 2 kg, 5 kg, 9 kg, 14 kg, 18 kg' },
@@ -118,21 +118,22 @@ export const PRODUCTS: Product[] = [
   {
     id: 'compostable-garbage-bags',
     name: 'Garbage Bags',
-    tagline: 'Heavy-duty green compostable bin liners in Small, Large, and Extra Large sizes — available from Q3 2027',
+    tagline: 'Heavy-duty compostable bin liners in Green (Red, Yellow, Blue & Black on order) across Small, Large, and Extra Large sizes — available from Q3 2027',
     status: 'pipeline',
     statusLabel: 'Upcoming Release · Available Q3 2027',
     category: 'Garbage Bags',
     sector: ['retail', 'food', 'ecommerce'],
     image: PRODUCT_IMAGES.garbageBags,
-    materials: ['Corn Starch Biopolymer', 'Cassava Starch', 'Natural Green Mineral Tint', 'PBAT'],
+    materials: ['Corn Starch Biopolymer', 'Cassava Starch', 'Natural Mineral Pigments', 'PBAT'],
     compostTime: '90–180 Days in Home & Municipal Compost',
     certification: 'CIPET Tested · IS/ISO 17088:2021 · IS 17899 T',
-    moq: '1,000 units (Perforated Rolls)',
+    moq: '10 kg',
     launchDate: 'Q3 2027',
-    description: 'Our second product category: vibrant green compostable Garbage Bags on perforated continuous rolls engineered to line kitchen pedal bins, retail waste stations, and commercial containers without tearing or leaking. Available in Small, Large, and Extra Large sizes starting Q3 2027.',
+    description: 'Our second product category: compostable Garbage Bags on perforated continuous rolls available in standard Green, with Red, Yellow, Blue, and Black available on order for color-coded waste segregation. Offered in Small, Large, and Extra Large sizes starting Q3 2027.',
     specs: [
       { label: 'Available Sizes', value: 'Small, Large, Extra Large' },
-      { label: 'Color & Finish', value: 'Vibrant Eco-Green Biopolymer Film' },
+      { label: 'Standard Color', value: 'Green' },
+      { label: 'Colors on Order', value: 'Red, Yellow, Blue, Black' },
       { label: 'Availability', value: 'Launching Q3 2027' },
       { label: 'Small Size', value: '43 × 48 cm · Up to 3 kg waste capacity' },
       { label: 'Large Size', value: '61 × 81 cm · Up to 6 kg waste capacity' },
@@ -141,8 +142,8 @@ export const PRODUCTS: Product[] = [
     ],
     features: [
       'Available in Small (3 kg), Large (6 kg), and Extra Large (8 kg) waste capacities',
-      'Clean green plant-based biopolymer film clearly designates organic and compostable waste',
-      'Perforated easy-tear roll format with strong puncture resistance for wet kitchen waste',
+      'Standard Green film, with Red, Yellow, Blue, and Black available on order for waste segregation',
+      'Perforated easy-tear roll format with strong puncture resistance for wet waste',
       '100% plant-based and plastic-free with zero lingering microplastics — launching Q3 2027'
     ]
   },
@@ -158,7 +159,7 @@ export const PRODUCTS: Product[] = [
     materials: ['Corn Starch Biopolymer', 'Cassava Starch', 'Soil-Biodegradable PBAT'],
     compostTime: 'Plough-in Soil Biodegradable (90–180 Days Post-Harvest)',
     certification: 'CIPET Tested · IS 17899 T:2022 · IS/ISO 17088:2021',
-    moq: '20 Rolls (1.2 m × 400 m per roll)',
+    moq: '10 kg',
     launchDate: 'Q3 2027',
     description: 'Engineered for Indian horticulture, vegetable farms, and orchards to replace single-use LDPE mulch sheets. Suppresses weeds, conserves irrigation moisture, and regulates soil temperature—then ploughs directly into farmland soil after harvest with zero microplastic residue.',
     specs: [
@@ -187,7 +188,7 @@ export const PRODUCTS: Product[] = [
     materials: ['Corn-derived Bio-resin', 'PBAT Flexible Elastomer'],
     compostTime: '180 Days Home Compost',
     certification: 'CIPET Tested · IS/ISO 17088:2021 · IS 17899 T',
-    moq: '1,000 units',
+    moq: '10 kg',
     launchDate: 'Q4 2027',
     description: 'A tough, weather-resistant flexible biopolymer mailer engineered to replace single-use plastic courier poly bags. Features a second peel-and-seal strip so customers can reuse the envelope for product returns before tossing it in home compost.',
     specs: [

@@ -94,7 +94,7 @@ export const Hero: React.FC<HeroProps> = ({ onRequestSample, onExploreProducts }
                 </div>
                 <div className="text-right shrink-0">
                   <span className="font-mono text-emerald-800 font-semibold text-[11px] bg-emerald-50 px-2 py-0.5 rounded">
-                    MOQ: 500 pcs
+                    MOQ: 10 kg
                   </span>
                 </div>
               </div>

@@ -9,7 +9,7 @@ interface SampleRequestModalProps {
 
 const SAMPLE_CATALOG_OPTIONS = [
   'Standard Carry Bags (All 8 Sizes: 250g–18kg)',
-  'Garbage Bags — Green (Small, Large, XL · Q3 2027)',
+  'Garbage Bags — Green & Custom Colors (Small, Large, XL · Q3 2027)',
   'Agricultural Mulching Film (Q3 2027)',
   'Shipping Mailer (Q4 2027)',
   'Biopolymer Resin Film Swatch'
@@ -40,7 +40,7 @@ export const SampleRequestModal: React.FC<SampleRequestModalProps> = ({
     const lower = preselectedProduct.toLowerCase();
     let matchedOption: string | undefined;
     if (lower.includes('garbage')) {
-      matchedOption = 'Garbage Bags — Green (Small, Large, XL · Q3 2027)';
+      matchedOption = 'Garbage Bags — Green & Custom Colors (Small, Large, XL · Q3 2027)';
     } else if (lower.includes('mulch') || lower.includes('agricult')) {
       matchedOption = 'Agricultural Mulching Film (Q3 2027)';
     } else if (lower.includes('mailer')) {

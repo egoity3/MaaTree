@@ -33,9 +33,9 @@ export const COMPANY_UPDATES: CompanyUpdate[] = [
     quarter: 'Q3 2027',
     title: 'Garbage Bags & Agricultural Mulching Film Launch',
     category: 'Product Launch',
-    summary: 'Targeted Q3 2027 release of green compostable Garbage Bags (Small, Large & Extra Large) and soil-biodegradable Agricultural Mulching Film for Indian horticulture and commercial waste streams.',
+    summary: 'Targeted Q3 2027 release of compostable Garbage Bags (Green standard; Red, Yellow, Blue & Black on order) and soil-biodegradable Agricultural Mulching Film.',
     highlights: [
-      'Garbage Bags in Small (3 kg), Large (6 kg), and Extra Large (8 kg) perforated rolls',
+      'Garbage Bags in Small (3 kg), Large (6 kg), Extra Large (8 kg) — Green standard, other colors on order',
       'Agricultural Mulching Film in 15–25 micron rolls that plough directly into soil',
       'Tested to IS/ISO 17088:2021 & IS 17899 T:2022 with zero microplastic residue'
     ]

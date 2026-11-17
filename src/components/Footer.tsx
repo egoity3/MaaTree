@@ -28,7 +28,7 @@ export const Footer: React.FC<FooterProps> = ({ onRequestSample }) => {
             <div className="text-[11px] text-stone-500 space-y-1">
               <div>Manufacturing: Biopolymer Film Extrusion Plant</div>
               <div>Official Website: <a href="https://maatree.in" className="text-stone-400 hover:text-white underline">maatree.in</a></div>
-              <div>Inquiries: <a href="mailto:wholesale@maatree.in" className="text-stone-400 hover:text-white">wholesale@maatree.in</a></div>
+              <div>Inquiries: <a href="mailto:maatree.products@gmail.com" className="text-stone-400 hover:text-white">maatree.products@gmail.com</a></div>
             </div>
           </div>
 

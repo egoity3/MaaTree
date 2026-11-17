@@ -236,12 +236,20 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({ onRequestSampleF
                         </div>
                       )}
                       {product.id === 'compostable-garbage-bags' && (
-                        <div className="flex justify-between gap-3 text-stone-600">
-                          <span className="text-stone-400 shrink-0">Sizes & Color:</span>
-                          <span className="font-medium text-stone-800 text-right">
-                            Small · Large · Extra Large (Green)
-                          </span>
-                        </div>
+                        <>
+                          <div className="flex justify-between gap-3 text-stone-600">
+                            <span className="text-stone-400 shrink-0">Sizes:</span>
+                            <span className="font-medium text-stone-800 text-right">
+                              Small · Large · Extra Large
+                            </span>
+                          </div>
+                          <div className="flex justify-between gap-3 text-stone-600">
+                            <span className="text-stone-400 shrink-0">Colors:</span>
+                            <span className="font-medium text-stone-800 text-right">
+                              Green (Red, Yellow, Blue, Black on order)
+                            </span>
+                          </div>
+                        </>
                       )}
                       <div className="flex justify-between text-stone-600">
                         <span className="text-stone-400">Materials:</span>
